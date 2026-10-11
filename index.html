@@ -1,49 +1,363 @@
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>The art of Dance</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="The Art of Dance — a visual exploration of ballet, modern jazz, neoclassical and contemporary dance.">
+    <meta name="theme-color" content="#111110">
+
+    <title>The Art of Dance | A Dance Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <section class="section-one">
-        <br>
-        <h1>The art of Dance</h1>
-        <h3>Dance [n.]: the art of turning feelings into movements when words are too small to hold them. A language spoken by the soul, written in the air, and remembered by the body long after the music fades. A thousand emotions woven into a single movement, a thousand stories told without a single word. Somewhere between the first note and the final bow, the world falls silent, and for a moment, everything that cannot be said becomes something that can be felt.</h3>
-    </section>
 
-    <section class="section-two">
-        <h2 class="section-title">Beyond the Movement</h2>
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <a href="#home" class="logo" aria-label="The Art of Dance home">
+            THE ART <span>OF</span> DANCE
+        </a>
 
-        <div class="image-pair">
-            <div class="image-item">
-                <img src="img/IMG_8795.jpeg" alt="Dance photograph">
-                <p class="image-label">Ballet</p>
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#journey">The Artistry</a>
+        </nav>
+
+        <a href="#portfolio" class="header-link">EXPLORE THE WORK <span>↗</span></a>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">MOVEMENT · EXPRESSION · ARTISTRY</p>
+
+                <h1>
+                    THE ART<br>
+                    OF <span>DANCE.</span>
+                </h1>
+
+                <div class="gold-line"></div>
+
+                <p class="hero-description">
+                    More than movement. More than technique.
+                    A language of its own, where emotion finds its
+                    rhythm and the body becomes a work of art.
+                </p>
+
+                <a href="#portfolio" class="primary-link">
+                    DISCOVER THE PORTFOLIO <span>↓</span>
+                </a>
             </div>
-            <div class="image-item">
-                <img src="img/IMG_8816.jpeg" alt="Dance photograph">
-                <p class="image-label">Modern Jazz</p>
+
+            <div class="hero-bottom">
+                <span>A STUDY OF MOVEMENT</span>
+                <span>ART IN EVERY GESTURE</span>
             </div>
-        </div>
 
-        <p class="caption">European Ballet Grand Prix 2025</p>
+            <span class="hero-number">01 / 04</span>
 
-        <div class="image-pair">
-            <div class="image-item">
-                <img src="img/IMG_4408.jpeg" alt="Dance photograph">
-                <p class="image-label">Neoclassical</p>
+        </section>
+
+
+        <!-- INTRODUCTION -->
+        <section class="introduction section-padding" id="philosophy">
+
+            <div class="section-label">
+                <span class="section-number">01</span>
+                <span>THE PHILOSOPHY</span>
             </div>
-            <div class="image-item">
-                <img src="img/IMG_4413.jpeg" alt="Dance photograph">
-                <p class="image-label">Contemporary</p>
+
+            <div class="introduction-content">
+                <p class="small-heading">A LANGUAGE BEYOND WORDS</p>
+
+                <h2>
+                    Where words end,<br>
+                    <span>movement begins.</span>
+                </h2>
+
+                <p class="introduction-text">
+                    Dance is the art of making the invisible visible.
+                    It transforms feeling into form, silence into rhythm,
+                    and a fleeting moment into something that can be felt
+                    long after it has passed.
+                </p>
+
+                <p class="introduction-text">
+                    Every gesture carries intention. Every pause has a
+                    purpose. Between control and freedom, precision and
+                    spontaneity, a dancer discovers a way to tell stories
+                    that do not need to be spoken.
+                </p>
+
+                <p class="signature">An art that is felt, not explained.</p>
             </div>
-        </div>
 
-        <p class="caption">Dance Performance 2026 "ReImagine"</p>
-        <br>
-        <P> Mariella Panayiotidou </P>
-    </section>
+        </section>
 
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section-padding" id="portfolio">
+
+            <div class="section-label">
+                <span class="section-number">02</span>
+                <span>SELECTED WORKS</span>
+            </div>
+
+            <div class="portfolio-heading">
+                <div>
+                    <p class="small-heading">FOUR EXPRESSIONS OF MOVEMENT</p>
+                    <h2>The <span>Portfolio.</span></h2>
+                </div>
+
+                <p class="portfolio-intro">
+                    Different disciplines. Different energies.
+                    One art form with endless possibilities.
+                </p>
+            </div>
+
+
+            <div class="gallery">
+
+                <!-- BALLET -->
+                <figure class="dance-card">
+                    <div class="image-container">
+                        <img
+                            src="img/IMG_8795.jpeg"
+                            alt="Ballet performance showcasing classical technique and line"
+                            loading="lazy"
+                        >
+                        <span class="image-index">01</span>
+                    </div>
+
+                    <figcaption>
+                        <div class="card-topline">
+                            <span class="dance-category">CLASSICAL</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <h3>Ballet</h3>
+
+                        <p class="card-description">
+                            Precision shaped by discipline, elegance
+                            refined through repetition, and strength
+                            expressed through seemingly effortless movement.
+                        </p>
+
+                        <div class="card-credit">
+                            <span>PERFORMANCE</span>
+                            <span>European Ballet Grand Prix · 2025</span>
+                        </div>
+                    </figcaption>
+                </figure>
+
+
+                <!-- MODERN JAZZ -->
+                <figure class="dance-card">
+                    <div class="image-container">
+                        <img
+                            src="img/IMG_8816.jpeg"
+                            alt="Modern jazz dance performance"
+                            loading="lazy"
+                        >
+                        <span class="image-index">02</span>
+                    </div>
+
+                    <figcaption>
+                        <div class="card-topline">
+                            <span class="dance-category">DYNAMIC</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <h3>Modern Jazz</h3>
+
+                        <p class="card-description">
+                            A meeting of musicality, sharp accents and
+                            expressive energy, where technique becomes
+                            a vehicle for individuality and rhythm.
+                        </p>
+
+                        <div class="card-credit">
+                            <span>PERFORMANCE</span>
+                            <span>European Ballet Grand Prix · 2025</span>
+                        </div>
+                    </figcaption>
+                </figure>
+
+
+                <!-- NEOCLASSICAL -->
+                <figure class="dance-card">
+                    <div class="image-container">
+                        <img
+                            src="img/IMG_4408.jpeg"
+                            alt="Neoclassical dance performance"
+                            loading="lazy"
+                        >
+                        <span class="image-index">03</span>
+                    </div>
+
+                    <figcaption>
+                        <div class="card-topline">
+                            <span class="dance-category">REFINED</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <h3>Neoclassical</h3>
+
+                        <p class="card-description">
+                            Classical foundations reimagined through
+                            clean lines, contemporary sensibility and
+                            an emphasis on musical clarity.
+                        </p>
+
+                        <div class="card-credit">
+                            <span>PRODUCTION</span>
+                            <span>ReImagine · 2026</span>
+                        </div>
+                    </figcaption>
+                </figure>
+
+
+                <!-- CONTEMPORARY -->
+                <figure class="dance-card">
+                    <div class="image-container">
+                        <img
+                            src="img/IMG_4413.jpeg"
+                            alt="Contemporary dance performance"
+                            loading="lazy"
+                        >
+                        <span class="image-index">04</span>
+                    </div>
+
+                    <figcaption>
+                        <div class="card-topline">
+                            <span class="dance-category">EXPRESSIVE</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <h3>Contemporary</h3>
+
+                        <p class="card-description">
+                            Movement without unnecessary boundaries,
+                            exploring the relationship between the body,
+                            space, gravity and emotion.
+                        </p>
+
+                        <div class="card-credit">
+                            <span>PRODUCTION</span>
+                            <span>ReImagine · 2026</span>
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <p class="gallery-note">
+                A collection of moments shaped by movement, music and performance.
+            </p>
+
+        </section>
+
+
+        <!-- THE ARTISTRY -->
+        <section class="artistry section-padding" id="journey">
+
+            <div class="section-label">
+                <span class="section-number">03</span>
+                <span>BEYOND THE STAGE</span>
+            </div>
+
+            <div class="artistry-heading">
+                <p class="small-heading">WHAT THE AUDIENCE DOES NOT ALWAYS SEE</p>
+
+                <h2>
+                    The art is in the<br>
+                    <span>work behind the moment.</span>
+                </h2>
+            </div>
+
+            <div class="artistry-grid">
+
+                <article class="artistry-item">
+                    <span class="artistry-number">01</span>
+                    <h3>Discipline</h3>
+                    <p>
+                        The quiet commitment behind every movement.
+                        Progress is built through patience, repetition
+                        and the willingness to keep learning.
+                    </p>
+                </article>
+
+                <article class="artistry-item">
+                    <span class="artistry-number">02</span>
+                    <h3>Expression</h3>
+                    <p>
+                        Technique gives movement its structure;
+                        expression gives it meaning. The smallest
+                        gesture can hold an entire story.
+                    </p>
+                </article>
+
+                <article class="artistry-item">
+                    <span class="artistry-number">03</span>
+                    <h3>Connection</h3>
+                    <p>
+                        Dance exists between the dancer, the music,
+                        the space and the audience. It creates a shared
+                        experience without requiring a single word.
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="closing-quote">
+                <span class="quote-mark">“</span>
+                <p>
+                    The body remembers what the heart has felt.
+                </p>
+                <span class="quote-caption">THE ART OF DANCE</span>
+            </div>
+
+        </section>
+
+
+        <!-- CLOSING SECTION -->
+        <section class="closing-section">
+            <p class="small-heading">AN ART THAT NEVER STANDS STILL</p>
+
+            <h2>
+                Every ending<br>
+                <span>begins with movement.</span>
+            </h2>
+
+            <a href="#home" class="back-to-top">
+                RETURN TO THE BEGINNING <span>↑</span>
+            </a>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <a href="#home" class="footer-logo">THE ART OF DANCE.</a>
+
+        <p>A VISUAL EXPLORATION OF MOVEMENT AND EXPRESSION</p>
+
+        <span class="footer-credit">DESIGNED BY MARIELLA PANAYIOTIDOU</span>
+
+        <a href="#home" class="footer-top">BACK TO TOP ↑</a>
+    </footer>
 
 </body>
 </html>
