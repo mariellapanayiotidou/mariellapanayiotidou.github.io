@@ -28,8 +28,7 @@ h3 {
     font-size: 20px;
     font-weight: normal;
     text-align: center;
-    width: 95%;
-    margin: 20dp auto;
+    margin: auto 3rem;
     color:#161616;
 }
 
@@ -94,6 +93,7 @@ h3 {
     .section-one {
         background-position: center bottom;
         height: 100%;
+        text-align: center;
     }
 
     h3{
